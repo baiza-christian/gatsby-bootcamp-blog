@@ -1,0 +1,35 @@
+.header {
+    padding: 1rem 0 3rem;
+}
+
+.title {
+    color: #000000;
+    font-size: 3rem;
+    //removes default underline of link
+    text-decoration: none;
+}
+
+.nav-list {
+    // stacks the items left to right
+    display: flex;
+    //removes bullet points
+    list-style-type: none;
+    // clears default margin values that lists usually get
+    margin: 0;
+
+}
+
+.nav-item {
+    color: #999999;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #666666;
+}
+
+.active-nav-item {
+    color: #333333;
+}
